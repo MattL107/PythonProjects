@@ -36,7 +36,7 @@ for row in rows:
         if puzzle[row][column] == b:
             elementValues = copy.deepcopy(digits).remove(# all values in same row, column or square
           '''
-# ok perhaps this is not a bedtime problem...
+# 
                 # we will need yet another nested loop to do the
                 # .remove() for the row and columns (and boxes)
 
